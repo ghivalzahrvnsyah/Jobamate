@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="company_name">Company Name</string>
+    <string name="job_location">Job Location</string>
+    <string name="job_type">Full-Time</string>
+</resources>

@@ -6,4 +6,10 @@
     <string name="favorite">Favorite</string>
     <string name="jobaseeker">JobaSeeker</string>
     <string name="home">Home</string>
+    <string name="job_title">Job Title</string>
+    <string name="company_name">Company Name</string>
+    <string name="job_location">Job Location</string>
+    <string name="job_type">Full-Time</string>
+    <string name="job_salary">Salary: $100,000 - $120,000</string>
+    <string name="btn_details">Lihat Details</string>
 </resources>
