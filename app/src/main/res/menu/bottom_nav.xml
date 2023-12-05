@@ -1,0 +1,21 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/homeFragment"
+        android:icon="@drawable/icons8_home"
+        android:title="@string/home" />
+
+    <item
+        android:id="@+id/jobaseekerFragment"
+        android:icon="@drawable/icon_jobaseeker"
+        android:title="@string/jobaseeker" />
+
+    <item
+        android:id="@+id/bookmarkFragment"
+        android:icon="@drawable/icon_favorite"
+        android:title="@string/favorite" />
+
+    <item
+        android:id="@+id/profileFragment"
+        android:icon="@drawable/icon_profile"
+        android:title="@string/profile" />
+</menu>
