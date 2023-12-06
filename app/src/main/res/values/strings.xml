@@ -12,4 +12,9 @@
     <string name="job_type">Full-Time</string>
     <string name="job_salary">Salary: $100,000 - $120,000</string>
     <string name="btn_details">Lihat Details</string>
+    <string name="halo">Halo, </string>
+    <string name="name">lorem Ipsum</string>
+    <string name="description">Tersedia peluang kerja inklusif untuk difabel di JobaMate. \nTemukan pekerjaan sesuai potensi Anda di sini!</string>
+    <string name="rekomendasi_pekerjaan">Rekomendasi Pekerjaan</string>
+    <string name="see_all_rekomendation">Lihat Semua</string>
 </resources>

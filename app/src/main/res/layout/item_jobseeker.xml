@@ -4,7 +4,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:layout_margin="20dp"
+    android:layout_margin="8dp"
     android:padding="16dp"
     app:cardCornerRadius="20dp">
 
@@ -37,13 +37,14 @@
 
         <TextView
             android:id="@+id/tv_company_name"
+            style="@style/fontCardStyle"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="16dp"
-            tools:text="@string/company_name"
-            style="@style/fontCardStyle"
+            android:fontFamily="@font/roboto"
             app:layout_constraintStart_toEndOf="@+id/iv_company_logo"
-            app:layout_constraintTop_toBottomOf="@+id/tv_job_title" />
+            app:layout_constraintTop_toBottomOf="@+id/tv_job_title"
+            tools:text="@string/company_name" />
 
         <TextView
             android:id="@+id/tv_job_location"
