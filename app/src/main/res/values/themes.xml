@@ -37,9 +37,21 @@
 
     </style>
 
+    <style name="textNameTitle">
+        <item name="android:textSize">24sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:fontFamily">@font/poppins_bold</item>"
+    </style>
+
     <style name="fontRobotoMedium">
         <item name="android:fontFamily">@font/roboto_medium</item>
         <item name="android:textStyle">normal</item>
         <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="appBarSyle">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@android:color/black</item>
     </style>
 </resources>
