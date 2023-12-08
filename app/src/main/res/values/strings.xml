@@ -24,4 +24,6 @@
     <string name="settings">Settings</string>
     <string name="resume_cv"><![CDATA[Resume & CV]]></string>
     <string name="my_favorite_job">My Favorite Job</string>
+    <string name="upload">Upload</string>
+    <string name="simpan">Simpan</string>
 </resources>

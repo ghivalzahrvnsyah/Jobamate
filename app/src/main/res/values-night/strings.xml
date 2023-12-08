@@ -8,4 +8,6 @@
     <string name="profile_name">Lion Arthur Dybala</string>
     <string name="profile_image">profile image</string>
     <string name="edit_profile">Edit Profile</string>
+    <string name="upload">Upload</string>
+    <string name="simpan">Simpan</string>
 </resources>

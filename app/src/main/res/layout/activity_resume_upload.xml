@@ -1,0 +1,65 @@
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textViewResumeCV"
+        style="@style/fontCardStyleJob"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/resume_cv"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/btn_back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:src="@drawable/icon_back"
+        app:layout_constraintEnd_toStartOf="@+id/textViewResumeCV"
+        app:layout_constraintHorizontal_bias="0.115"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/iv_ResumeCV"
+        android:layout_width="270dp"
+        android:layout_height="270dp"
+        android:layout_marginTop="48dp"
+        android:src="@drawable/icon_cvresume"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:background="@drawable/bg_dashed"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewResumeCV" />
+
+    <Button
+        android:id="@+id/btn_upload"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        app:layout_constraintEnd_toEndOf="@+id/iv_ResumeCV"
+        app:layout_constraintStart_toStartOf="@+id/iv_ResumeCV"
+        app:layout_constraintTop_toBottomOf="@+id/iv_ResumeCV"
+        android:text="@string/upload" />
+
+    <Button
+        android:id="@+id/btn_simpan"
+        android:layout_width="230dp"
+        android:layout_height="55dp"
+        android:layout_marginBottom="24dp"
+        android:text="@string/simpan"
+        android:textAllCaps="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
