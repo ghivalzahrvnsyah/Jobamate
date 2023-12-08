@@ -3,7 +3,9 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    tools:context=".ProfileFragment">
 
     <View
         android:id="@+id/view"
@@ -14,53 +16,118 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
+
     <ImageView
-        android:id="@+id/profileImage"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:id="@+id/iv_profile_image"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginTop="48dp"
+        android:contentDescription="@string/profile_image"
         app:layout_constraintEnd_toEndOf="@+id/view"
-        app:layout_constraintHorizontal_bias="0.500"
         app:layout_constraintStart_toStartOf="@+id/view"
-        tools:layout_editor_absoluteY="51dp"
-        tools:srcCompat="@tools:sample/avatars" />
+        app:layout_constraintTop_toTopOf="@+id/view"
+        tools:src="@tools:sample/avatars" />
 
     <TextView
+        android:id="@+id/tv_name"
         style="@style/fontCardStyleJob"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:text="@string/name"
         android:layout_marginTop="16dp"
-        android:text="@string/profile_name"
         android:textColor="@color/white"
-        app:layout_constraintEnd_toEndOf="@+id/profileImage"
-        app:layout_constraintStart_toStartOf="@+id/profileImage"
-        app:layout_constraintTop_toBottomOf="@+id/profileImage" />
+        app:layout_constraintEnd_toEndOf="@+id/iv_profile_image"
+        app:layout_constraintStart_toStartOf="@+id/iv_profile_image"
+        app:layout_constraintTop_toBottomOf="@+id/iv_profile_image" />
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop= "16dp"
-        android:layout_marginEnd="16dp"
-        android:layout_marginStart="16dp"
+        android:layout_margin="8dp"
         android:orientation="vertical"
-        app:layout_constraintEnd_toEndOf="@+id/view"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="@+id/view"
         app:layout_constraintTop_toBottomOf="@+id/view">
 
-            <TextView
-                android:id="@+id/editProfile"
-                style="@style/fontCardStyle"
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_edit_profile"
+            style="@style/fontRobotoMedium"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="24dp"
+            android:background="@drawable/btn_background"
+            android:drawableStart="@drawable/icon_edit_profile"
+            android:drawableEnd="@drawable/icon_circleright_black"
+            android:drawablePadding="16dp"
+            android:elevation="10dp"
+            android:gravity="start|center_vertical"
+            android:paddingStart="16dp"
+            android:paddingEnd="20dp"
+            android:text="@string/edit_profile"
+            android:textAllCaps="false"
+            android:textColor="@color/black" />
 
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="@string/name" />
-        <TextView
-                android:id="@+id/editResume"
-                style="@style/fontCardStyle"
-                android:background="@drawable/btn_background"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="@string/name" />
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_resume"
+            style="@style/fontRobotoMedium"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="24dp"
+            android:background="@drawable/btn_background"
+            android:drawableStart="@drawable/icon_resume"
+            android:drawableEnd="@drawable/icon_circleright_black"
+            android:drawablePadding="16dp"
+            android:elevation="10dp"
+            android:gravity="start|center_vertical"
+            android:paddingStart="16dp"
+            android:paddingEnd="20dp"
+            android:text="@string/resume_cv"
+            android:textAllCaps="false"
+            android:textColor="@color/black" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_setting"
+            style="@style/fontRobotoMedium"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="24dp"
+            android:background="@drawable/btn_background"
+            android:drawableStart="@drawable/icon_setting"
+            android:drawableEnd="@drawable/icon_circleright_black"
+            android:drawablePadding="16dp"
+            android:elevation="10dp"
+            android:gravity="start|center_vertical"
+            android:paddingStart="16dp"
+            android:paddingEnd="20dp"
+            android:text="@string/settings"
+            android:textAllCaps="false"
+            android:textColor="@color/black" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_logout"
+            style="@style/fontRobotoMedium"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="24dp"
+            android:background="@drawable/btn_background"
+            android:drawableStart="@drawable/icon_logout"
+            android:drawableEnd="@drawable/icon_circleright_black"
+            android:drawablePadding="16dp"
+            android:elevation="10dp"
+            android:gravity="start|center_vertical"
+            android:paddingStart="16dp"
+            android:paddingEnd="20dp"
+            android:text="@string/logout"
+            android:textAllCaps="false"
+            android:textColor="#ff0000" />
+
+
 
     </LinearLayout>
 

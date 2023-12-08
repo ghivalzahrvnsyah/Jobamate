@@ -6,4 +6,6 @@
     <string name="rekomendasi_pekerjaan">Rekomendasi Pekerjaan</string>
     <string name="see_all_rekomendation">Lihat Semua</string>
     <string name="profile_name">Lion Arthur Dybala</string>
+    <string name="profile_image">profile image</string>
+    <string name="edit_profile">Edit Profile</string>
 </resources>
