@@ -26,4 +26,13 @@
     <string name="my_favorite_job">My Favorite Job</string>
     <string name="upload">Upload</string>
     <string name="simpan">Simpan</string>
+    <string name="change_picture">Change Picture</string>
+    <string name="enter_name">Masukkan Nama</string>
+    <string name="nama_lengkap">Nama Lengkap</string>
+    <string name="email">Email</string>
+    <string name="masukkan_email">Masukkan Email</string>
+    <string name="nomor_handphone">Nomor Handphone</string>
+    <string name="no_hp">Masukkan No. Handphone</string>
+    <string name="password">Password</string>
+    <string name="btn_simpan">SIMPAN</string>
 </resources>

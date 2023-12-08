@@ -10,4 +10,8 @@
     <string name="edit_profile">Edit Profile</string>
     <string name="upload">Upload</string>
     <string name="simpan">Simpan</string>
+    <string name="change_picture">Change Picture</string>
+    <string name="enter_name">Masukkan Nama</string>
+    <string name="nama_lengkap">Nama Lengkap</string>
+    <string name="nomor_handphone">Nomor Handphone</string>
 </resources>
