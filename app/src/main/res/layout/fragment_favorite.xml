@@ -7,28 +7,31 @@
     android:layout_height="match_parent"
     tools:context=".FavoriteFragment">
 
-   <com.google.android.material.appbar.AppBarLayout
-       android:id="@+id/appBarLayout"
-       android:layout_width="match_parent"
-       android:layout_height="?attr/actionBarSize"
-       style="@style/appBarSyle">
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/appBarLayout"
+        style="@style/appBarSyle"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
 
-       <Toolbar
-           android:id="@+id/toolbar"
-           android:layout_width="match_parent"
-           android:layout_height="?attr/actionBarSize">
+        <Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize">
 
-           <TextView
-               android:layout_width="wrap_content"
-               android:layout_height="wrap_content"
-               android:layout_gravity="center"
-               android:text="@string/my_favorite_job"
-               style="@style/textNameTitle"
-               android:layout_margin="16dp" />
-       </Toolbar>
+            <TextView
+                style="@style/textNameTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="16dp"
+                android:text="@string/my_favorite_job" />
+        </Toolbar>
 
 
-   </com.google.android.material.appbar.AppBarLayout>
+    </com.google.android.material.appbar.AppBarLayout>
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/rv_jobs_favorite"
