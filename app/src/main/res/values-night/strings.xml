@@ -14,4 +14,7 @@
     <string name="enter_name">Masukkan Nama</string>
     <string name="nama_lengkap">Nama Lengkap</string>
     <string name="nomor_handphone">Nomor Handphone</string>
+    <string name="job_description">Deskripsi Pekerjaan</string>
+    <string name="job_responsibility">Tanggung Jawab</string>
+    <string name="job_termscondition"><![CDATA[Syarat & Ketentuan\n]]></string>
 </resources>

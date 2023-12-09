@@ -35,4 +35,11 @@
     <string name="no_hp">Masukkan No. Handphone</string>
     <string name="password">Password</string>
     <string name="btn_simpan">SIMPAN</string>
+    <string name="detail_pekerjaan">Detail Pekerjaan</string>
+    <string name="location">Jakarta Selatan</string>
+    <string name="job_description">Deskripsi Pekerjaan</string>
+    <string name="lorem">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur dignissim rutrum dui quis malesuada. Nam id dapibus augue. Nulla convallis condimentum orci, et varius eros semper in.</string>
+    <string name="job_responsibility">Tanggung Jawab</string>
+    <string name="job_termscondition"><![CDATA[Syarat & Ketentuan\n]]></string>
+    <string name="btn_lamar">Lamar Sekarang</string>
 </resources>
