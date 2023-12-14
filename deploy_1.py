@@ -16,10 +16,10 @@ import re
 
 app = Flask(__name__)
 
-# Memuat model
+
 model = load_model('model_1.h5')
 
-# Preprocessing teks
+
 def preprocess_text(text):
     text = text.lower()
     text = re.sub(r'[^\w\s]', '', text)
@@ -29,19 +29,14 @@ def preprocess_text(text):
 
 @app.route('/predict', methods=['POST'])
 def predict():
-    # Mendapatkan data JSON dari request
+  
     data = request.get_json(force=True)
 
-    # Memastikan data dalam format yang benar
+   
     input_data = preprocess_text(data['input'])
 
-    # Jika model Anda memerlukan input dalam bentuk tertentu (seperti array numpy), lakukan konversi di sini
-    # Contoh: input_data = np.array([input_data])
-
-    # Melakukan prediksi
     prediction = model.predict(input_data)
 
-    # Mengirimkan hasil prediksi
     return jsonify({'prediction': prediction.tolist()})
 
 if __name__ == '__main__':
