@@ -18,18 +18,14 @@ import json
 
 app = Flask(__name__)
 
-# Memuat model
+
 model = load_model('model_2.h5')
 
-# Preprocessing
-label_encoders = {}  # Harus diisi dengan LabelEncoder yang telah dilatih
-# Anda harus menyimpan LabelEncoder yang telah dilatih dan memuatnya di sini
-# Contoh: label_encoders['Eligibility'] = load_saved_label_encoder('Eligibility.pkl')
+
+label_encoders = {}  
+
 
 def preprocess_input(input_data):
-    # Preprocess input data
-    # Anda perlu mengubah input_data sesuai dengan struktur data yang diperlukan oleh model Anda
-    # Juga, terapkan LabelEncoder pada kolom yang relevan
     processed_data = {}
     for feature in input_data:
         if feature in label_encoders:
@@ -41,16 +37,10 @@ def preprocess_input(input_data):
 
 @app.route('/predict', methods=['POST'])
 def predict():
-    # Mendapatkan data dari request
     data = request.get_json(force=True)
-
-    # Memastikan data dalam format yang benar
     input_data = preprocess_input(data)
-
-    # Melakukan prediksi
     prediction = model.predict(np.array([list(input_data.values())]))
 
-    # Mengirimkan hasil prediksi
     return jsonify({'prediction': prediction.tolist()})
 
 if __name__ == '__main__':
