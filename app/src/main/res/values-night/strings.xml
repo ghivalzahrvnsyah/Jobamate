@@ -17,4 +17,5 @@
     <string name="job_description">Deskripsi Pekerjaan</string>
     <string name="job_responsibility">Tanggung Jawab</string>
     <string name="job_termscondition"><![CDATA[Syarat & Ketentuan\n]]></string>
+    <string name="btn_back">Back Button</string>
 </resources>

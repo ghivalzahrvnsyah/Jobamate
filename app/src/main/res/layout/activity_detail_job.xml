@@ -6,7 +6,6 @@
     android:layout_height="match_parent"
     tools:context=".DetailJobActivity">
 
-
     <View
         android:id="@+id/view"
         android:layout_width="match_parent"
@@ -38,6 +37,7 @@
         app:layout_constraintEnd_toStartOf="@+id/textViewDetailPekerjaan"
         app:layout_constraintHorizontal_bias="0.115"
         app:layout_constraintStart_toStartOf="parent"
+        android:contentDescription="@string/btn_back"
         app:layout_constraintTop_toTopOf="parent" />
 
     <ImageView
@@ -244,7 +244,7 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="24dp"
             android:src="@drawable/icon_no_bookmark_button"
-            android:contentDescription="BookMark Button" />
+            android:contentDescription="@string/bookmark_button" />
 
     </LinearLayout>
 
