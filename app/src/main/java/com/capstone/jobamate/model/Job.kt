@@ -13,5 +13,6 @@ data class Job (
     val salary: String,
     val description: String,
     val responsibility: String,
-    val qualification: String
+    val qualification: String,
+    val image: Int
 ): Parcelable

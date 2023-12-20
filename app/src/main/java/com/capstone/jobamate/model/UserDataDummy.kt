@@ -1,14 +1,17 @@
 package com.capstone.jobamate.model
 
+import com.capstone.jobamate.R
+
 object UserDataDummy {
 
     val user = listOf(
         User(
-            id = 1,
-            name = "Respari Wulandari",
-            email = "respariwulandari@gmail.com",
-            password = "respari123",
-            phone = "089576859871"
+           1,
+            "Respari Wulandari",
+            "respariwulandari@gmail.com",
+            "respari123",
+            "089576859871",
+            R.drawable.avatar2
         )
     )
 }

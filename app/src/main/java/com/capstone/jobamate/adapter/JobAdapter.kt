@@ -39,6 +39,7 @@ class JobAdapter(private val listJob: List<Job>): RecyclerView.Adapter<JobAdapte
                 tvCompanyName.text = job.companyName
                 tvJobLocation.text = job.location
                 tvSalary.text = job.salary
+                ivCompanyLogo.setImageResource(job.image)
             }
         }
     }

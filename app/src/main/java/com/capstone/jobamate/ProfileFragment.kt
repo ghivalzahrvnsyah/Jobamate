@@ -5,6 +5,7 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import com.capstone.jobamate.databinding.FragmentHomeBinding
 import com.capstone.jobamate.databinding.FragmentJobaseekerBinding
 import com.capstone.jobamate.databinding.FragmentProfileBinding
 import com.capstone.jobamate.model.UserDataDummy
@@ -33,6 +34,7 @@ class ProfileFragment : Fragment() {
         super.onViewCreated(view, savedInstanceState)
 
         binding.tvName.text = UserDataDummy.user[0].name
+        binding.ivProfileImage.setImageResource(UserDataDummy.user[0].image)
     }
 
 }

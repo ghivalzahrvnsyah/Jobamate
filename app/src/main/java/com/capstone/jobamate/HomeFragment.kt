@@ -11,6 +11,7 @@ import com.capstone.jobamate.adapter.HomeJobAdapter
 import com.capstone.jobamate.databinding.FragmentHomeBinding
 import com.capstone.jobamate.model.Job
 import com.capstone.jobamate.model.JobDataDummySource
+import com.capstone.jobamate.model.UserDataDummy
 
 class HomeFragment : Fragment() {
 
@@ -41,6 +42,7 @@ class HomeFragment : Fragment() {
                 startActivity(intent)
             }
         })
+        binding.tvName.text = UserDataDummy.user[0].name
     }
 
     override fun onDestroyView() {

@@ -38,6 +38,7 @@ class DetailJobActivity : AppCompatActivity() {
             binding.tvJobDescription.text = dataJob.description
             binding.tvJobResponsibility.text = dataJob.responsibility
             binding.tvJobTermscondition.text = dataJob.qualification
+            binding.ivBannercompany.setImageResource(dataJob.image)
         } else {
             val noDataFound = "Data tidak ditemukan"
             binding.tvCompanyName.text = noDataFound
