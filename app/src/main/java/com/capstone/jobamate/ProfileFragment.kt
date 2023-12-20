@@ -1,5 +1,6 @@
 package com.capstone.jobamate
 
+import android.content.Intent
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
@@ -35,6 +36,15 @@ class ProfileFragment : Fragment() {
 
         binding.tvName.text = UserDataDummy.user[0].name
         binding.ivProfileImage.setImageResource(UserDataDummy.user[0].image)
+
+        binding.btnEditProfile.setOnClickListener {
+            val intent = Intent(requireContext(), EditProfileActivity::class.java)
+            startActivity(intent)
+        }
+        binding.btnResume.setOnClickListener {
+            val intent = Intent(requireContext(), ResumeUploadActivity::class.java)
+            startActivity(intent)
+        }
     }
 
 }
