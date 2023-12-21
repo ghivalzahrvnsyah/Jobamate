@@ -21,10 +21,10 @@ class SplahScreen : AppCompatActivity() {
             finish()
         }, 3000)
 
+
+        // untuk hide actionbar dan toolbar
         window.decorView.systemUiVisibility = View.SYSTEM_UI_FLAG_FULLSCREEN
         supportActionBar?.hide()
-
-
 
     }
 }

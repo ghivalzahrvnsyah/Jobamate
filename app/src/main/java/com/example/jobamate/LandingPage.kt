@@ -15,41 +15,20 @@ class  LandingPage : AppCompatActivity() {
     private lateinit var binding: ActivityLandingPageBinding
 
 
-
-
-//    private val landingPageAdapter = LandingPageAdapter(
-//        listOf(
-//            LandingPageModel(
-//                "konten1",
-//                "Let's prepare your glorious career\n" +
-//                        "With us...",
-//                R.drawable.itemlandingpage1
-//            ),
-//             LandingPageModel(
-//                "konten1",
-//                "Let's prepare your glorious career\n" +
-//                        "With us...",
-//                R.drawable.itemlandingpage1
-//            ),
-//            LandingPageModel(
-//                "konten1",
-//                "Let's prepare your glorious career\n" +
-//                        "With us...",
-//                R.drawable.itemlandingpage1
-//            )
-//        )
-//    )
-
     override fun onCreate(savedInstanceState: Bundle?) {
         binding = ActivityLandingPageBinding.inflate(layoutInflater)
         super.onCreate(savedInstanceState)
         setContentView(binding.root)
+
+        // untuk hide toolbar dan action bar
         //window.decorView.systemUiVisibility = View.SYSTEM_UI_FLAG_FULLSCREEN
         //supportActionBar?.hide()
 
-        addToList( "Welcome to Jobamate", "Improve your career with us", R.drawable.itemlandingpage1)
-        addToList("Explore Opportunities", "Collaborating with over 50+ companies, dedicated to employing individuals with disabilities.", R.drawable.itemlandingpage2)
-        addToList("Improve Your Skill", "Attending free training sessions with experts", R.drawable.itemlandingpage3)
+
+        // input data view pager di landing page
+        addToList( "Selamat Datang di Jobamate", "Tingkatkan karir Anda bersama kami", R.drawable.itemlandingpage1)
+        addToList("Jelajahi Peluang", "Berkolaborasi dengan lebih dari 50+ perusahaan, berdedikasi untuk mempekerjakan penyandang disabilitas", R.drawable.itemlandingpage2)
+        addToList("Tingkatkan Keterampilan Anda", "Menghadiri pelatihan gratis dengan para ahli", R.drawable.itemlandingpage3)
 
 
         binding.viewPagerOnboarding.apply {
@@ -66,14 +45,17 @@ class  LandingPage : AppCompatActivity() {
             val intent = Intent(this, Login::class.java)
             startActivity(intent)
         }
+
+        binding.btnSignup.setOnClickListener {
+            val intent = Intent(this, SignUp::class.java)
+            startActivity(intent)
+        }
     }
 
     private fun addToList(title : String,description : String,image:Int){
         textTitle.add(title)
         textDescription.add(description)
         itemImage.add(image)
-
-        //cek
     }
 
 }

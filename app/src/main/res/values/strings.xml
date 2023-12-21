@@ -1,3 +1,25 @@
 <resources>
     <string name="app_name">Jobamate</string>
+    <string name="alert_wrong_email">Wrong email!\n</string>
+    <string name="masuk">Masuk</string>
+    <string name="daftar">Daftar</string>
+    <string name="ketik_email_anda">Ketik email anda</string>
+    <string name="email">Email</string>
+    <string name="kata_sandi">Kata Sandi</string>
+    <string name="ketik_kata_sandi_anda">Ketik kata sandi anda</string>
+    <string name="ingat_saya">Ingat saya</string>
+    <string name="saya_lupa_kata_sandi_saya">Saya lupa kata sandi saya</string>
+    <string name="belum_punya_akun_daftar">Belum punya akun? Daftar disini!</string>
+    <string name="nama">Nama</string>
+    <string name="ketik_nama_anda">Ketik nama anda</string>
+    <string name="ketik_telepon_anda">Ketik telepon anda</string>
+    <string name="alamat">Alamat</string>
+    <string name="ketik_alamat_anda">Ketik alamat anda</string>
+    <string name="tanggal_lahir">Tanggal Lahir</string>
+    <string name="pilih_tanggal_lahir_anda">Ketik tanggal lahir anda</string>
+    <string name="jenis_kelamin">Jenis Kelamin</string>
+    <string name="pilih_jenis_kelamin_anda">Pilih jenis kelamin anda</string>
+    <string name="ketik_password_anda_sekali_lagi">Ketik password anda sekali lagi</string>
+    <string name="sudah_punya_akun_masuk">Sudah punya akun? Masuk disini!</string>
+    <string name="jenis_disabilitas">Jenis Disabilitas</string>
 </resources>

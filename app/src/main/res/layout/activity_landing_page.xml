@@ -7,8 +7,6 @@
     android:background="@drawable/background_landingpage"
     tools:context=".LandingPage">
 
-
-
     <androidx.viewpager2.widget.ViewPager2
         android:id="@+id/viewPagerOnboarding"
         android:layout_width="match_parent"
@@ -28,9 +26,8 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"/>
 
-
     <androidx.cardview.widget.CardView
-        android:id="@+id/cardview"
+        android:id="@+id/cardviewlp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@+id/indicator"
@@ -43,22 +40,6 @@
         android:elevation="20dp"
         app:cardCornerRadius="30dp">
 
-
-        <!--        <androidx.appcompat.widget.AppCompatButton-->
-        <!--            android:id="@+id/btn_signup"-->
-        <!--            android:layout_width="match_parent"-->
-        <!--            android:layout_height="wrap_content"-->
-        <!--            android:layout_marginHorizontal="48dp"-->
-        <!--            android:layout_marginTop="16dp"-->
-        <!--            android:background="@color/purple"-->
-        <!--            android:textAllCaps="false"-->
-        <!--            android:textColor="@color/white"-->
-        <!--            android:textSize="20sp"-->
-        <!--            android:textStyle="bold"-->
-        <!--            app:layout_constraintEnd_toEndOf="parent"-->
-        <!--            app:layout_constraintStart_toStartOf="parent"-->
-        <!--            ></androidx.appcompat.widget.AppCompatButton>-->
-
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -66,45 +47,15 @@
             android:orientation="vertical"
             android:padding="24dp">
 
-
-<!--            <Button-->
-<!--                android:id="@+id/btn_signup"-->
-<!--                android:layout_width="300dp"-->
-<!--                android:layout_height="59dp"-->
-<!--                android:backgroundTint="@color/purple2"-->
-<!--                android:fontFamily="@font/allerta_regular"-->
-<!--                android:text="Sign Up"-->
-<!--                android:textSize="20sp"-->
-<!--                android:textStyle="bold"-->
-
-<!--                ></Button>-->
-
             <com.google.android.material.button.MaterialButton
                 android:id="@+id/btn_signup"
                 android:layout_width="300dp"
                 android:layout_height="59dp"
                 android:backgroundTint="@color/purple2"
-                android:fontFamily="@font/allerta_regular"
-                android:text="Sign Up"
+                android:fontFamily="@font/allerta"
+                android:text="@string/daftar"
                 android:textSize="20sp"
-                android:textStyle="bold"></com.google.android.material.button.MaterialButton>
-
-
-
-
-
-
-<!--            <Button-->
-<!--                android:id="@+id/btn_login"-->
-<!--                android:layout_width="300dp"-->
-<!--                android:layout_height="59dp"-->
-<!--                android:layout_marginTop="5dp"-->
-<!--                android:backgroundTint="@color/purple4"-->
-<!--                android:fontFamily="@font/allerta_regular"-->
-<!--                android:text="Log In"-->
-<!--                android:textColor="@color/purple5"-->
-<!--                android:textSize="20sp"-->
-<!--                android:textStyle="bold"></Button>-->
+                android:textStyle="bold"/>
 
             <com.google.android.material.button.MaterialButton
                 android:id="@+id/btn_login"
@@ -112,18 +63,14 @@
                 android:layout_height="59dp"
                 android:layout_marginTop="5dp"
                 android:backgroundTint="@color/purple4"
-                android:fontFamily="@font/allerta_regular"
-                android:text="Log In"
+                android:fontFamily="@font/allerta"
+                android:text="@string/masuk"
                 android:textColor="@color/purple5"
                 android:textSize="20sp"
-                android:textStyle="bold"></com.google.android.material.button.MaterialButton>
-
+                android:textStyle="bold"/>
 
         </LinearLayout>
 
-
     </androidx.cardview.widget.CardView>
-
-
 
 </RelativeLayout>

@@ -32,7 +32,6 @@ class LandingPageAdapter(private val title : List<String>,
         return title.size
     }
 
-
     inner class LandingPageViewHolder(view: View) : RecyclerView.ViewHolder(view) {
 
          val textTitle = view.findViewById<TextView>(R.id.title_landing_page)

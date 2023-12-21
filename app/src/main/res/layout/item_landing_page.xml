@@ -25,7 +25,7 @@
         android:textAlignment="center"
         android:textColor="@color/white"
         android:textStyle="bold"
-        android:fontFamily="@font/acme_regular"></TextView>
+        android:fontFamily="@font/acme"></TextView>
 
     <TextView
         android:id="@+id/desc_landing_page"
@@ -37,7 +37,7 @@
         android:textAlignment="center"
         android:textColor="@color/white"
         android:textStyle="normal"
-        android:fontFamily="@font/allerta_regular"></TextView>
+        android:fontFamily="@font/allerta"></TextView>
 
 
 

@@ -4,9 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/purple1"
+    android:background="@drawable/background_all"
     tools:context=".Login">
-
     
     <LinearLayout
         android:layout_width="match_parent"
@@ -15,153 +14,170 @@
         android:padding="28dp">
 
         <ImageView
+            android:id="@+id/btn_back"
             android:layout_width="30dp"
             android:layout_height="30dp"
-            android:src="@drawable/baseline_arrow_back_ios_new_24"></ImageView>
+            android:src="@drawable/baseline_arrow_back_ios_new_24"/>
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:fontFamily="@font/acme_regular"
-            android:text="Log In"
+            android:fontFamily="@font/acme"
+            android:text="@string/masuk"
             android:textColor="@color/white"
             android:layout_marginLeft="30dp"
             android:layout_marginTop="30dp"
             android:textSize="40sp"
-            android:textStyle="bold"></TextView>
-
+            android:textStyle="bold"/>
 
     </LinearLayout>
-    
+
     <androidx.cardview.widget.CardView
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="700dp"
         android:layout_alignParentBottom="true"
-        app:cardCornerRadius="28dp"
-        android:layout_marginBottom="-20dp">
+        android:layout_marginBottom="-48dp"
+        app:cardCornerRadius="50dp">
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical"
             android:padding="28dp">
-            
+
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Welcome"
+                android:fontFamily="@font/allerta"
+                android:text="Selamat Datang"
+                android:textAlignment="center"
                 android:textColor="@color/black"
-                android:textStyle="bold"
                 android:textSize="32sp"
-                android:fontFamily="@font/allerta_regular"></TextView>
+                android:textStyle="bold" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="please login with your account"
-                android:textColor="@color/black"
                 android:alpha="0.5"
-                android:fontFamily="@font/allerta_regular"></TextView>
+                android:fontFamily="@font/allerta"
+                android:text="silahkan login dengan akun anda"
+                android:textColor="@color/black" />
 
             <View
                 android:layout_width="wrap_content"
-                android:layout_height="30dp"></View>
+                android:layout_height="30dp" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Email"
+                android:fontFamily="@font/allerta"
+                android:text="@string/email"
                 android:textColor="@color/black"
-                android:textSize="20sp"
-                android:fontFamily="@font/allerta_regular"></TextView>
+                android:textSize="20sp" />
 
             <View
                 android:layout_width="wrap_content"
-                android:layout_height="10dp"></View>
+                android:layout_height="10dp" />
 
             <EditText
+                android:id="@+id/inputemail"
                 android:layout_width="match_parent"
-                android:layout_height="43dp"
+                android:layout_height="50dp"
+                android:alpha="0.9"
                 android:background="@drawable/edt_input"
-                android:hint="    Input email here"
-                android:fontFamily="@font/allerta_regular"
-                android:textSize="15sp"
-                ></EditText>
+
+                android:drawableStart="@drawable/baseline_email_24"
+                android:drawablePadding="10dp"
+                android:fontFamily="@font/allerta"
+                android:hint=" Ketik email anda"
+                android:paddingStart="13dp"
+                android:textSize="12sp" />
 
             <View
                 android:layout_width="wrap_content"
-                android:layout_height="30dp"></View>
+                android:layout_height="20dp" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Password"
+                android:fontFamily="@font/allerta"
+                android:text="@string/kata_sandi"
                 android:textColor="@color/black"
-                android:textSize="20sp"
-                android:fontFamily="@font/allerta_regular"></TextView>
+                android:textSize="20sp" />
 
             <View
                 android:layout_width="wrap_content"
-                android:layout_height="10dp"></View>
+                android:layout_height="10dp" />
 
-            <EditText
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/inputsandi"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
                 android:layout_width="match_parent"
-                android:layout_height="43dp"
-                android:background="@drawable/edt_input"
-                android:hint="    Input password here"
-                android:fontFamily="@font/allerta_regular"
-                android:textSize="15sp"></EditText>
+                android:layout_height="wrap_content"
+                app:passwordToggleEnabled="true"
+                app:startIconDrawable="@drawable/baseline_lock_24">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:ems="15"
+                    android:fontFamily="@font/allerta"
+                    android:hint="@string/ketik_kata_sandi_anda"
+                    android:inputType="textPassword"
+                    android:textSize="12sp" />
+
+            </com.google.android.material.textfield.TextInputLayout>
 
             <RelativeLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content">
-                
+
                 <CheckBox
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Remember me"
-                    android:fontFamily="@font/allerta_regular"
-                    android:alpha="0.7"></CheckBox>
+                    android:alpha="0.7"
+                    android:fontFamily="@font/allerta"
+                    android:text="@string/ingat_saya" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="I Forgot my password"
                     android:layout_alignParentEnd="true"
-                    android:fontFamily="@font/allerta_regular"
-                    android:textSize="12sp"
+                    android:layout_centerVertical="true"
                     android:alpha="0.7"
-                    android:layout_centerVertical="true"></TextView>
+                    android:fontFamily="@font/allerta"
+                    android:text="@string/saya_lupa_kata_sandi_saya"
+                    android:textSize="12sp" />
 
-                
-                
             </RelativeLayout>
 
             <View
                 android:layout_width="wrap_content"
-                android:layout_height="10dp"></View>
+                android:layout_height="10dp" />
 
             <com.google.android.material.button.MaterialButton
+                android:id="@+id/btn_loginn"
                 android:layout_width="match_parent"
                 android:layout_height="60dp"
                 android:backgroundTint="@color/purple2"
-                android:fontFamily="@font/allerta_regular"
-                android:text="Login"
+                android:fontFamily="@font/allerta"
+                android:text="@string/masuk"
                 android:textSize="20sp"
-                android:textStyle="bold"></com.google.android.material.button.MaterialButton>
+                android:textStyle="bold" />
 
-            <View
-                android:layout_width="wrap_content"
-                android:layout_height="230dp"></View>
+            <TextView
+                android:id="@+id/text_daftar_disini"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/allerta"
+                android:text="@string/belum_punya_akun_daftar"
+                android:textAlignment="center"
+                android:textSize="12sp" />
 
-
-            
         </LinearLayout>
 
-
     </androidx.cardview.widget.CardView>
-
-
-    
 
 </RelativeLayout>

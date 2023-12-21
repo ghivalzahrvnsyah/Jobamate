@@ -9,5 +9,7 @@
     <color name="purple5">#8E7AC7</color>
     <color name="purple6">#55418D</color>
     <color name="gray">#EEEBEB</color>
+    <color name="gray_edt">#777679</color>
+
 
 </resources>

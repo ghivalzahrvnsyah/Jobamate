@@ -44,15 +44,21 @@ dependencies {
 
 
 
+    // inputan tambahan buat kebutuhan
+
+    implementation("androidx.recyclerview:recyclerview:1.2.1") //inputan recylerview
+    implementation("androidx.viewpager2:viewpager2:1.0.0") //inputan view pager
+    implementation("me.relex:circleindicator:2.1.6") //inputan material circle indicator
+    implementation("com.google.android.material:material:1.7.0") //inputan material desain
+    implementation("com.google.android.material:material:1.9.0") //inputan material desain
+    implementation("com.klinkerapps:link_builder:2.0.5") //inputan untuk linktext
+
+    // retrofit
+    implementation("com.squareup.retrofit2:retrofit:2.9.0")
+    implementation("com.squareup.retrofit2:converter-gson:2.9.0")
 
 
-//    implementation("com.github.bumptech.glide:glide:4.11.0")
-    implementation("androidx.recyclerview:recyclerview:1.2.1")
-    implementation("androidx.viewpager2:viewpager2:1.0.0")
-    implementation("me.relex:circleindicator:2.1.6")
-//    implementation("com.github.KylixEza:GDSCToast:1.2.1")
-    implementation("com.google.android.material:material:1.7.0")
-
+    // inputan asli dari awal
     implementation("androidx.core:core-ktx:1.9.0")
     implementation("androidx.appcompat:appcompat:1.6.1")
     implementation("com.google.android.material:material:1.10.0")
