@@ -1,9 +1,14 @@
 package com.capstone.jobamate
 
+import android.app.Dialog
 import android.content.Intent
 import android.os.Build
 import android.os.Bundle
 import android.view.MenuItem
+import android.view.Window
+import android.widget.Button
+import android.widget.TextView
+import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import com.capstone.jobamate.databinding.ActivityDetailJobBinding
 import com.capstone.jobamate.databinding.FragmentJobaseekerBinding
@@ -22,6 +27,9 @@ class DetailJobActivity : AppCompatActivity() {
 
         binding.btnBack.setOnClickListener {
            onBackPressed()
+        }
+        binding.btnLamar.setOnClickListener {
+            showCustomDialog()
         }
 
         val dataJob = if (Build.VERSION.SDK_INT >= 33) {
@@ -48,5 +56,29 @@ class DetailJobActivity : AppCompatActivity() {
             binding.tvJobTermscondition.text = noDataFound
         }
     }
+
+    private fun showCustomDialog() {
+        val dialog = Dialog(this)
+        dialog.requestWindowFeature(Window.FEATURE_NO_TITLE)
+        dialog.setCancelable(false)
+        dialog.setContentView(R.layout.alert_dialog_training)
+        dialog.window?.setBackgroundDrawableResource(android.R.color.transparent)
+
+        val tvMessage: TextView = dialog.findViewById(R.id.tvAlertMessage)
+        val btnDaftar: Button = dialog.findViewById(R.id.btnDaftarPelatihan)
+        val btnBatal: Button = dialog.findViewById(R.id.btnBatal)
+
+
+        btnDaftar.setOnClickListener {
+            Toast.makeText(this, "Anda Sudah Daftar pelatihan", Toast.LENGTH_SHORT).show()
+            dialog.dismiss()
+        }
+        btnBatal.setOnClickListener {
+            dialog.dismiss()
+        }
+        dialog.show()
+
+    }
+
 
 }

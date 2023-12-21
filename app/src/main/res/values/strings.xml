@@ -44,4 +44,8 @@
     <string name="btn_lamar">Lamar Sekarang</string>
     <string name="btn_back">Back Button</string>
     <string name="bookmark_button">BookMark Button</string>
+    <string name="exit_dialog_message">PERHATIAN!!!</string>
+    <string name="alert_msg">Anda Harus Mengikuti Pelatihan Terlebih Dahulu</string>
+    <string name="msg_daftar_pelatihan">Daftar</string>
+    <string name="msg_batal">Batal</string>
 </resources>
