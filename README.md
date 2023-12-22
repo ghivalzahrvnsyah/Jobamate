@@ -36,7 +36,7 @@ To get started with Jobamate, you'll need:
 # Features
 <h3>MACHINE LEARNING</h3> 
 1. Recommendation System Based on Filling out The Questionnaire<br>
-2. Search Engine
+2. Search Engine<br>
 <a href=https://github.com/ghivalzahrvnsyah/Jobamate/tree/machinelearning>Branch Machine Learning</a>
 <br>
 <hr>
@@ -46,3 +46,7 @@ To get started with Jobamate, you'll need:
 <a href=https://github.com/ghivalzahrvnsyah/Jobamate/tree/MobileDevelopment>Branch Mobile Development</a>
 <br>
 <hr>
+<h3>CLOUD COMPUTING</h3>
+1. TULIS SENDIRI<br>
+2. TULIS SENDIRI<br>
+<a href=https://github.com/ghivalzahrvnsyah/Jobamate/tree/cloudcomputing>Branch Cloud Computing</a>
