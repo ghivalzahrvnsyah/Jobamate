@@ -9,7 +9,7 @@ Here are our steps :
 1. We create a dataset (by ourselves) that consist of jobs for disabilities. The dataset contains "Nama Pekerjaan", "Nama Perusahaan", "Tanggal Posting", "Eligibility", "Kondisi", "Audiens", "Tanggal Mulai", "Lokasi", "Job Description", "Job Requirement", "Gaji", "Informasi Perusahaan", "Keahlian", dan "Target_Cocok". Here is the dataset : <a href=https://github.com/ghivalzahrvnsyah/Jobamate/blob/machinelearning/modified_set_kerja.csv>Dataset</a>
 2. Then, we installing some required libraries and starting jump to pre-processing step. 
 3. After pre-processing is complete, the next step is modeling and training it until get satisfying accuracy and low loss. 
-4. We also  try the model by creating drop down settings using widgets from Python. In experiment that we trying, we make location dropdown, skill dropdown, and type of disabilities drop down. Here are the results without using TensorFlow : <a href=https://github.com/ghivalzahrvnsyah/Jobamate/blob/machinelearning/%5BTanpa%20Tensorflow%5Drekomendasi%20pekerjaan%20berdasarkan%20kuisioner.ipynb>Recommendation System Based on Filling Out The Questionnaire Using Dop Down</a> 
+4. We also  try the model by creating drop down settings using widgets from Python. In experiment that we trying, we make location dropdown, skill dropdown, and type of disabilities drop down. Here are the results without using TensorFlow : <a href=https://github.com/ghivalzahrvnsyah/Jobamate/blob/machinelearning/%5BTanpa%20Tensorflow%5Drekomendasi%20pekerjaan%20berdasarkan%20kuisioner.ipynb>Recommendation System Based on Filling Out The Questionnaire Using Drop Down</a> 
 <br>
 
 # Search Engine
