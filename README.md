@@ -9,7 +9,7 @@ Jobamate is the culmination of the collective efforts of the 2023 cohort at Bang
 <br>
 
 # Team 
-| Nama Anggota                            | Bangkit ID    |
+| Member Name                             | Bangkit ID    |
 | --------------------------------------- | ------------- |
 | Ni Putu Mutiara Orlanda Hartawan Putri  | M014BSX1436   |
 | Nur Aqifah                              | M006BSX0763   |
