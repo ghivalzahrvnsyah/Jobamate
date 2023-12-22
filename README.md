@@ -21,11 +21,14 @@ Jobamate is the culmination of the collective efforts of the 2023 cohort at Bang
 <br>
 
 # Features
-MACHINE LEARNING 
+<h3>MACHINE LEARNING</h3> 
 1. Recommendation System Based on Filling out The Questionnaire
 2. Search Engine
 <br>
-
-
-<h3>Mobile Development</h3>
+<hr>
+<h3>MOBILE DEVELOPMENTt</h3>
+1. Create UI Design in Figma and Android Studio
+2. Integrating Model API from Cloud Computing and Machine Learning
 <a href=https://github.com/ghivalzahrvnsyah/Jobamate/tree/Merge>Branch Mobile Development</a>
+<br>
+<hr>
