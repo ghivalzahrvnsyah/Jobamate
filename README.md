@@ -1,4 +1,5 @@
-# Jobamate: Job Applications and Training for People with Disabilities <br> ![welkam](https://github.com/ghivalzahrvnsyah/Jobamate/assets/142316588/c1cea5a9-b82a-4e80-90fe-9a1c9272706f)
+# Jobamate: Job Applications and Training for People with Disabilities ![DALL_E_2023-12-10_16 27 28_-_Design_a_logo_for__Jobamate___an_app_dedicated_to_providing_job_opportunities_for_people_with_disabilities 2](https://github.com/ghivalzahrvnsyah/Jobamate/assets/142316588/ba3c3802-7a4f-49bc-8761-0f46168304e3)
+
 
 
 Welcome to Jobamate, a specialized job portal designed to cater to individuals with disabilities. This application serves as a beacon of inclusivity and opportunity, offering a platform where talents and companies converge to foster a diverse and empowered workforce.
