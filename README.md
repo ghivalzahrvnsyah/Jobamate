@@ -12,6 +12,7 @@ By facilitating connections between job seekers and employers, fostering skill d
 - [Introduction](#Introductio)
 - [Getting Started](#Getting-Started)
 - [Team](#Team)
+- Realease(
 - [Features](#Features)
 
 # Introduction
@@ -34,6 +35,8 @@ To get started with Jobamate, you'll need:
 | Ghivalza Harviansyah                    | A012BSY2426   |
 | Alexander Dwi Putra Gultom              | A227BSY1943   |
 <br>
+
+#Releases
 
 # Features
 <h3>MACHINE LEARNING</h3> 
