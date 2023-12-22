@@ -22,6 +22,7 @@ class  LandingPage : AppCompatActivity() {
         // untuk hide toolbar dan action bar
         //window.decorView.systemUiVisibility = View.SYSTEM_UI_FLAG_FULLSCREEN
         //supportActionBar?.hide()
+        //This is landing page
 
 
         // input data view pager di landing page
