@@ -27,8 +27,8 @@ Jobamate is the culmination of the collective efforts of the 2023 cohort at Bang
 <br>
 <hr>
 <h3>MOBILE DEVELOPMENTt</h3>
-1. Create UI Design in Figma and Android Studio
-2. Integrating Model API from Cloud Computing and Machine Learning
+1. Create UI Design in Figma and Android Studio<br>
+2. Integrating Model API from Cloud Computing and Machine Learning<br>
 <a href=https://github.com/ghivalzahrvnsyah/Jobamate/tree/Merge>Branch Mobile Development</a>
 <br>
 <hr>
