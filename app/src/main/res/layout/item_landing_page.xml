@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    app:flow_horizontalAlign="center">
+
+    <ImageView
+        android:id="@+id/item_landing_page"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/itemlandingpage1"
+        android:scaleType="center"/>
+
+    <TextView
+        android:id="@+id/title_landing_page"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-20dp"
+        android:text="JOBAMATE"
+        android:textSize="30sp"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        style="@style/fontCardStyle"/>
+
+    <TextView
+        android:id="@+id/desc_landing_page"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Improve your career with us"
+        android:textSize="17sp"
+        style="@style/fontCardStyle"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textStyle="normal" />
+
+</LinearLayout>

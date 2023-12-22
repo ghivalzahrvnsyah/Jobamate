@@ -5,4 +5,12 @@
     <color name="primary">#8E7AC7</color>
     <color name="primaryVariant">#493583</color>
     <color name="background">#CCD0D3</color>
+    <color name="purple1">#6D53B6</color>
+    <color name="purple2">#745CED</color>
+    <color name="purple3">#A695F9</color>
+    <color name="purple4">#CEC5FF</color>
+    <color name="purple5">#8E7AC7</color>
+    <color name="purple6">#55418D</color>
+    <color name="gray">#EEEBEB</color>
+    <color name="gray_edt">#777679</color>
 </resources>

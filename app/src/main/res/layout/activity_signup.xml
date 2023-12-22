@@ -1,0 +1,344 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_all"
+    android:focusableInTouchMode="true"
+    tools:context=".SignUp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="28dp">
+
+        <ImageView
+            android:id="@+id/btn_back"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/baseline_arrow_back_ios_new_24"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Daftar Akun"
+            android:textColor="@color/white"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="30dp"
+            android:textSize="40sp"
+            android:textStyle="bold"/>
+
+
+    </LinearLayout>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="700dp"
+        android:layout_alignParentBottom="true"
+        app:cardCornerRadius="50dp"
+        android:layout_marginBottom="-50dp">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="28dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    style="@style/fontCardStyleBold"
+                    android:text="Selamat Datang"
+                    android:textColor="@color/black"
+                    android:textSize="32sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Silakan isi informasi berikut"
+                    android:textColor="@color/black"
+                    android:alpha="0.5" />
+
+                <View
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/nama"
+                    android:textColor="@color/black"
+                    android:textSize="20sp" />
+
+                <View
+                    android:layout_width="wrap_content"
+                    android:layout_height="10dp"/>
+
+                <EditText
+                    android:id="@+id/inputnama"
+                    android:layout_width="match_parent"
+                    android:layout_height="43dp"
+                    android:background="@drawable/edt_input"
+                    android:paddingStart="13dp"
+                    android:hint="@string/ketik_nama_anda"
+                    android:textSize="13sp"
+                    android:drawableStart="@drawable/baseline_person_24"
+                    android:drawablePadding="10dp"/>
+
+                <View
+                    android:layout_width="wrap_content"
+                    android:layout_height="20dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/email"
+                    android:textColor="@color/black"
+                    android:textSize="20sp" />
+
+                <View
+                    android:layout_width="wrap_content"
+                    android:layout_height="10dp"/>
+
+                <EditText
+                    android:id="@+id/inputemail"
+                    android:layout_width="match_parent"
+                    android:layout_height="43dp"
+                    android:background="@drawable/edt_input"
+                    android:paddingStart="13dp"
+                    android:hint="@string/ketik_email_anda"
+                    android:textSize="13sp"
+                    android:drawableStart="@drawable/baseline_email_24"
+                    android:drawablePadding="10dp"/>
+
+                <View
+                    android:layout_width="wrap_content"
+                    android:layout_height="20dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Telepon"
+                    android:textColor="@color/black"
+                    android:textSize="20sp" />
+
+                <View
+                    android:layout_width="wrap_content"
+                    android:layout_height="10dp"/>
+
+                <EditText
+                    android:id="@+id/inputtelepon"
+                    android:layout_width="match_parent"
+                    android:layout_height="43dp"
+                    android:background="@drawable/edt_input"
+                    android:paddingStart="13dp"
+                    android:hint="@string/ketik_telepon_anda"
+                    android:textSize="13sp"
+                    android:drawableStart="@drawable/baseline_call_24"
+                    android:drawablePadding="10dp"/>
+
+                <View
+                    android:layout_width="wrap_content"
+                    android:layout_height="20dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/alamat"
+                    android:textColor="@color/black"
+                    android:textSize="20sp" />
+
+                <View
+                    android:layout_width="wrap_content"
+                    android:layout_height="10dp"/>
+
+                <EditText
+                    android:id="@+id/inputalamat"
+                    android:layout_width="match_parent"
+                    android:layout_height="43dp"
+                    android:background="@drawable/edt_input"
+                    android:paddingStart="13dp"
+                    android:hint="@string/ketik_alamat_anda"
+                    android:textSize="13sp"
+                    android:drawableStart="@drawable/baseline_home_24"
+                    android:drawablePadding="10dp"/>
+
+                <View
+                    android:layout_width="wrap_content"
+                    android:layout_height="20dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/tanggal_lahir"
+                    android:textColor="@color/black"
+                    android:textSize="20sp" />
+
+                <View
+                    android:layout_width="wrap_content"
+                    android:layout_height="10dp"/>
+
+                <EditText
+                    android:id="@+id/inputtanggallahir"
+                    android:layout_width="match_parent"
+                    android:layout_height="43dp"
+                    android:background="@drawable/edt_input"
+                    android:paddingStart="13dp"
+                    android:hint="@string/pilih_tanggal_lahir_anda"
+                    android:textSize="13sp"
+                    android:drawableStart="@drawable/baseline_calendar_month_24"
+                    android:drawablePadding="10dp"/>
+
+                <View
+                    android:layout_width="wrap_content"
+                    android:layout_height="20dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/jenis_kelamin"
+                    android:textColor="@color/black"
+                    android:textSize="20sp" />
+
+                <View
+                    android:layout_width="wrap_content"
+                    android:layout_height="10dp"/>
+
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/inputjeniskelamin"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="  Pilih jenis kelamin anda"
+                    style="@style/Widget.Material3.TextInputLayout.OutlinedBox.ExposedDropdownMenu"
+                    app:boxCornerRadiusBottomEnd="5dp"
+                    app:boxCornerRadiusBottomStart="5dp"
+                    app:boxCornerRadiusTopEnd="5dp"
+                    app:boxCornerRadiusTopStart="5dp"
+                    android:alpha="0.8">
+
+
+                    <com.google.android.material.textfield.MaterialAutoCompleteTextView
+                        android:id="@+id/auto_complete"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:inputType="none"
+                        android:textSize="13sp"
+                        android:layout_weight="1"
+                        android:paddingStart="12dp"
+                        android:drawableStart="@drawable/baseline_gender_24" />
+
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <View
+                    android:layout_width="wrap_content"
+                    android:layout_height="20dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/kata_sandi"
+                    android:textColor="@color/black"
+                    android:textSize="20sp" />
+
+                <View
+                    android:layout_width="wrap_content"
+                    android:layout_height="10dp"/>
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/inputkatasandi"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:passwordToggleEnabled="true"
+                    app:startIconDrawable="@drawable/baseline_lock_24"
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:textSize="12sp"
+                        android:inputType="textPassword"
+                        android:hint="@string/ketik_kata_sandi_anda"
+                        android:ems="15"/>
+
+
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <View
+                    android:layout_width="wrap_content"
+                    android:layout_height="20dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Konfirmasi Kata Sandi"
+                    android:textColor="@color/black"
+                    android:textSize="20sp" />
+
+                <View
+                    android:layout_width="wrap_content"
+                    android:layout_height="10dp"/>
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/inputkonfirmasikatasandi"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:passwordToggleEnabled="true"
+                    app:startIconDrawable="@drawable/baseline_lock_24"
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:textSize="12sp"
+                        android:inputType="textPassword"
+                        android:hint="@string/ketik_password_anda_sekali_lagi"
+                        android:ems="15"/>
+
+                </com.google.android.material.textfield.TextInputLayout>
+
+
+                <View
+                    android:layout_width="wrap_content"
+                    android:layout_height="15dp"/>
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/btn_daftar"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:backgroundTint="@color/purple2"
+                    android:text="Daftar"
+                    android:textSize="20sp"
+                    android:textStyle="bold"/>
+
+                <View
+                    android:layout_width="wrap_content"
+                    android:layout_height="10dp"/>
+
+                <TextView
+                    android:id="@+id/text_masuk_disini"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/sudah_punya_akun_masuk"
+                    android:textAlignment="center"
+                    android:textSize="12sp" />
+
+                <View
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"/>
+
+            </LinearLayout>
+
+        </ScrollView>
+
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>

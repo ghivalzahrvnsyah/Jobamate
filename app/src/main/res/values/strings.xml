@@ -48,4 +48,25 @@
     <string name="alert_msg">Anda Harus Mengikuti Pelatihan Terlebih Dahulu</string>
     <string name="msg_daftar_pelatihan">Daftar</string>
     <string name="msg_batal">Batal</string>
+    <string name="daftar">Daftar</string>
+    <string name="masuk">Masuk</string>
+    <string name="selamat_datang">Selamat Datang</string>
+    <string name="silahkan_login_dengan_akun_anda">silahkan login dengan akun anda</string>
+    <string name="kata_sandi">Kata Sandi</string>
+    <string name="ingat_saya">ingat saya</string>
+    <string name="saya_lupa_kata_sandi_saya">Lupa kata sandi</string>
+    <string name="belum_punya_akun_daftar">Belum punya akun? Daftar disini!</string>
+    <string name="ketik_kata_sandi_anda">Ketik kata sandi Anda</string>
+    <string name="nama">Nama</string>
+    <string name="ketik_nama_anda">Ketik nama Anda</string>
+    <string name="ketik_email_anda">Ketik email Anda</string>
+    <string name="ketik_telepon_anda">Ketik No. Telepon Anda</string>
+    <string name="alamat">Alamat</string>
+    <string name="ketik_alamat_anda">Ketik Alamat Anda</string>
+    <string name="tanggal_lahir">Tanggal Lahir</string>
+    <string name="pilih_tanggal_lahir_anda">Pilih Tanggal Lahir Anda</string>
+    <string name="jenis_kelamin">Jenis Kelamin</string>
+    <string name="ketik_password_anda_sekali_lagi">Ketik password Anda sekali lagi</string>
+    <string name="sudah_punya_akun_masuk">Sudah punya akun?</string>
+    <string name="jenis_disabilitas">Jenis Disabilitas</string>
 </resources>

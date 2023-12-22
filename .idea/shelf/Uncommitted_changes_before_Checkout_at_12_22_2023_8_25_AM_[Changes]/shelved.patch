@@ -1,0 +1,25 @@
+Index: app/src/main/java/com/capstone/jobamate/EditProfileActivity.kt
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package com.capstone.jobamate\r\n\r\nimport androidx.appcompat.app.AppCompatActivity\r\nimport android.os.Bundle\r\nimport com.capstone.jobamate.databinding.ActivityEditProfileBinding\r\n\r\nclass EditProfileActivity : AppCompatActivity() {\r\n    private var _binding: ActivityEditProfileBinding? = null\r\n    private val binding get() = _binding!!\r\n    override fun onCreate(savedInstanceState: Bundle?) {\r\n        super.onCreate(savedInstanceState)\r\n        _binding = ActivityEditProfileBinding.inflate(layoutInflater)\r\n        setContentView(binding.root)\r\n\r\n        binding.btnBack.setOnClickListener {\r\n            onBackPressed()\r\n        }\r\n    }\r\n\r\n}
+===================================================================
+diff --git a/app/src/main/java/com/capstone/jobamate/EditProfileActivity.kt b/app/src/main/java/com/capstone/jobamate/EditProfileActivity.kt
+--- a/app/src/main/java/com/capstone/jobamate/EditProfileActivity.kt	
++++ b/app/src/main/java/com/capstone/jobamate/EditProfileActivity.kt	
+@@ -3,6 +3,7 @@
+ import androidx.appcompat.app.AppCompatActivity
+ import android.os.Bundle
+ import com.capstone.jobamate.databinding.ActivityEditProfileBinding
++import com.capstone.jobamate.model.UserDataDummy
+ 
+ class EditProfileActivity : AppCompatActivity() {
+     private var _binding: ActivityEditProfileBinding? = null
+@@ -15,6 +16,7 @@
+         binding.btnBack.setOnClickListener {
+             onBackPressed()
+         }
++        binding.tvName.text = UserDataDummy.user[0].name
+     }
+ 
+ }
+\ No newline at end of file

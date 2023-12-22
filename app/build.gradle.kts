@@ -51,4 +51,12 @@ dependencies {
     androidTestImplementation("androidx.test.espresso:espresso-core:3.5.1")
     implementation("androidx.fragment:fragment-ktx:1.6.2")
 
+    implementation("androidx.viewpager2:viewpager2:1.0.0") //inputan view pager
+    implementation("me.relex:circleindicator:2.1.6")
+
+    implementation("com.klinkerapps:link_builder:2.0.5")
+
+    implementation("com.squareup.retrofit2:retrofit:2.9.0")
+    implementation("com.squareup.retrofit2:converter-gson:2.9.0")
+
 }
