@@ -12,7 +12,7 @@ By facilitating connections between job seekers and employers, fostering skill d
 - [Introduction](#Introductio)
 - [Getting Started](#Getting-Started)
 - [Team](#Team)
-- Realease(
+- [Realease](#Releases)
 - [Features](#Features)
 
 # Introduction
@@ -36,7 +36,9 @@ To get started with Jobamate, you'll need:
 | Alexander Dwi Putra Gultom              | A227BSY1943   |
 <br>
 
-#Releases
+# Releases
+<h3>Release APK and Icon assets</h3>
+<a href=https://github.com/ghivalzahrvnsyah/Jobamate/tree/release>Build APK</a>
 
 # Features
 <h3>MACHINE LEARNING</h3> 
