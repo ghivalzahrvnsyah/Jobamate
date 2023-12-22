@@ -22,7 +22,7 @@ Jobamate is the culmination of the collective efforts of the 2023 cohort at Bang
 
 # Features
 <h3>MACHINE LEARNING</h3> 
-1. Recommendation System Based on Filling out The Questionnaire
+1. Recommendation System Based on Filling out The Questionnaire<br>
 2. Search Engine
 <br>
 <hr>
