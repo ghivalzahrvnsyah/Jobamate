@@ -26,4 +26,6 @@ MACHINE LEARNING
 2. Search Engine
 <br>
 
-https://github.com/ghivalzahrvnsyah/Jobamate/tree/Merge
+
+<h3>Mobile Development</h3>
+<a href=https://github.com/ghivalzahrvnsyah/Jobamate/tree/Merge>Branch Mobile Development</a>
