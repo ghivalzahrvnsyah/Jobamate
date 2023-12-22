@@ -1,4 +1,4 @@
-# Jobamate ![Logo2](https://github.com/ghivalzahrvnsyah/Jobamate/assets/142316588/8559e2b4-8045-4c0a-9c8d-84132295f3c6)
+# Jobamate: Job Applications and Training for People with Disabilities  ![Logo2](https://github.com/ghivalzahrvnsyah/Jobamate/assets/142316588/8559e2b4-8045-4c0a-9c8d-84132295f3c6)
 
 Welcome to Jobamate, a specialized job portal designed to cater to individuals with disabilities. This application serves as a beacon of inclusivity and opportunity, offering a platform where talents and companies converge to foster a diverse and empowered workforce.
 Our primary objective is to empower people with disabilities in Indonesia by providing them with equal opportunities for sustainable and gainful employment. This application will serve as a bridge connecting job seekers with disabilities to employers who value diversity and inclusion.
@@ -13,7 +13,7 @@ By facilitating connections between job seekers and employers, fostering skill d
 - [Features](#Features)
 
 # Introduction
-Jobamate is the culmination of the collective efforts of the 2023 cohort at Bangkit Academy. As our capstone project, we aimed not only to create a functional application but to address a critical need in society by bridging the gap between job seekers with disabilities and supportive employers.
+Jobamate is the culmination of the collective efforts of the 2023 cohort at Bangkit Academy. Our team’s solution essentially merges training and employment opportunities into a single platform, emphasizing empowerment and inclusivity for people with disabilities. The goal is to enable them to secure employment, earn a livelihood, and challenge societal misconceptions about their capabilities.
 <br>
 
 # Getting Started
