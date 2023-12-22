@@ -37,6 +37,7 @@ To get started with Jobamate, you'll need:
 <h3>MACHINE LEARNING</h3> 
 1. Recommendation System Based on Filling out The Questionnaire<br>
 2. Search Engine
+<a href=https://github.com/ghivalzahrvnsyah/Jobamate/tree/machinelearning>Branch Machine Learning</a>
 <br>
 <hr>
 <h3>MOBILE DEVELOPMENT</h3>
