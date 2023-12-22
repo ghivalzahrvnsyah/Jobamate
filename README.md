@@ -3,7 +3,7 @@ Cloud Computing has responsibility for the Backend of the application and is res
 <br>
 
 # Create an API for Backend
-Responsible for application backend features by creating REST APIs using node.js. We use express.js as framework to make REST API.
+Responsible for application backend features by creating REST APIs using node.js. We use express.js as framework to make REST API. We also use Postman for API testing and documentation
 <br>
 
 # Deploying API that already created to Google Cloud Platform
