@@ -1,11 +1,13 @@
-# Jobamate
-Welcome to Jobamate, a specialized job portal designed to cater to individuals with disabilities. This application serves as a beacon of inclusivity and opportunity, offering a platform where talents and companies converge to foster a diverse and empowered workforce.
-Our primary objective is to empower people with disabilities in Indonesia by providing them with equal opportunities for sustainable and gainful employment. This application will serve as a bridge connecting job seekers with disabilities to employers who value diversity and inclusion.
-By facilitating connections between job seekers and employers, fostering skill development, and promoting inclusive work environments, we aspire to create a more equitable society where everyone has a chance to thrive.
+# Cloud Computing
+Cloud Computing has responsibility for the Backend of the application and is responsible for the Google Cloud Platform.
 <br>
 
-# Introduction
-Jobamate is the culmination of the collective efforts of the 2023 cohort at Bangkit Academy. As our capstone project, we aimed not only to create a functional application but to address a critical need in society by bridging the gap between job seekers with disabilities and supportive employers.
+# Create an API for Backend
+Responsible for application backend features by creating REST APIs using node.js. We use express.js as framework to make REST API.
 <br>
 
-# Features
+# Deploying API that already created to Google Cloud Platform
+We deploy our API that already we created before on Google Cloud Platform. On the Google Cloud platform itself we also use several services provided by the Google Cloud Platform
+1. Google Cloud Storage Bucket as the cloud storage that we use
+2. Google Cloud SQL as a database in the applications we have created
+3. Google App Engine as a service to deploy the API that we had created previously. Here is the endpoint link of our API: <a href=https://simpeapi.et.r.appspot.com> API Endpoint</a>
