@@ -4,9 +4,20 @@ Our primary objective is to empower people with disabilities in Indonesia by pro
 By facilitating connections between job seekers and employers, fostering skill development, and promoting inclusive work environments, we aspire to create a more equitable society where everyone has a chance to thrive.
 <br>
 
+## Table of Contents
+- [Introduction](#Introductio)
+- [Getting Started](#Getting-Started)
+- [Team](#Team)
+- [Features](#Features)
+
 # Introduction
 Jobamate is the culmination of the collective efforts of the 2023 cohort at Bangkit Academy. As our capstone project, we aimed not only to create a functional application but to address a critical need in society by bridging the gap between job seekers with disabilities and supportive employers.
 <br>
+
+# Getting Started
+To get started with Jobamate, you'll need:
+- An Android
+- An internet connection for job searches and updates.
 
 # Team 
 | Member Name                             | Bangkit ID    |
@@ -26,7 +37,7 @@ Jobamate is the culmination of the collective efforts of the 2023 cohort at Bang
 2. Search Engine
 <br>
 <hr>
-<h3>MOBILE DEVELOPMENTt</h3>
+<h3>MOBILE DEVELOPMENT</h3>
 1. Create UI Design in Figma and Android Studio<br>
 2. Integrating Model API from Cloud Computing and Machine Learning<br>
 <a href=https://github.com/ghivalzahrvnsyah/Jobamate/tree/MobileDevelopment>Branch Mobile Development</a>
