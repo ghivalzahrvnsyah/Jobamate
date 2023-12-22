@@ -47,6 +47,6 @@ To get started with Jobamate, you'll need:
 <br>
 <hr>
 <h3>CLOUD COMPUTING</h3>
-1. TULIS SENDIRI<br>
-2. TULIS SENDIRI<br>
+1. Create an API for Backend<br>
+2. Deploying API that already created to Google Cloud Platform<br>
 <a href=https://github.com/ghivalzahrvnsyah/Jobamate/tree/cloudcomputing>Branch Cloud Computing</a>
