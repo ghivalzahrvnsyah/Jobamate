@@ -1,4 +1,5 @@
-# Jobamate: Job Applications and Training for People with Disabilities  ![Login](https://github.com/ghivalzahrvnsyah/Jobamate/assets/142316588/79c18449-e4c3-4a3e-b00b-36dcbafb5855)
+# Jobamate: Job Applications and Training for People with Disabilities <br> ![welkam](https://github.com/ghivalzahrvnsyah/Jobamate/assets/142316588/c1cea5a9-b82a-4e80-90fe-9a1c9272706f)
+
 
 Welcome to Jobamate, a specialized job portal designed to cater to individuals with disabilities. This application serves as a beacon of inclusivity and opportunity, offering a platform where talents and companies converge to foster a diverse and empowered workforce.
 Our primary objective is to empower people with disabilities in Indonesia by providing them with equal opportunities for sustainable and gainful employment. This application will serve as a bridge connecting job seekers with disabilities to employers who value diversity and inclusion.
